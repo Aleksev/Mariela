@@ -1,151 +1,78 @@
 .promo {
 	position: relative;
-	padding: 23px 0 80px;
-	background: url('../img/promo_bg.jpg') center / cover no-repeat;
-	min-height: 680px;
-	.logo {
-		img {
-			width: 100%;
-		}
+	margin: 0 auto;
+	max-width: 1440px;
+	min-height: 820px;
+	background: linear-gradient(180deg, #C9ADC6 56%, #D6BBD3 44%);
+	padding: 72px 20px 70px 178px;
+	&__bg {
+		max-width: 850px;
+		height: 675px;
+		background: url('../../img/promo-bg.jpg') center / cover no-repeat;
 	}
-	.header {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		.menu {
-			display: flex;
-			align-items: center;
-			&__item {
-				border-right: 1px dotted #fff;
-				padding: 0 14px 0 14px;
-				a {
-					text-decoration: none;
-					background-image: linear-gradient(currentColor, currentColor);
-					background-position: 0% 100%;
-					background-repeat: no-repeat;
-					background-size: 0% 2px;
-					padding-bottom: 5px;
-					transition: all .3s ease-in-out;
-				}
-				a:hover {
-					color: $main-color;
-					background-size: 100% 2px;
-				}
-			}
-			&__item:last-child {
-				border-right: none;
-				padding-right: 0;
-			}
-			&__item:first-child {
-				padding-left: 0;
-			}
-			&__link {
-				font-family: Roboto;
-				font-size: 15px;
-				line-height: 16px;
-				font-weight: 400;
-				color: #ffffff;
-			}
-		}
-		
-		&__contacts {
-			text-align: end;
-			&-text {
-				font-size: 14px;
-				font-weight: 300;
-			}
-			&-phone {
-				font-size: 19px;
-				font-weight: 700;
-			}
-			a {
-				transition: all .3s ease-in-out;
-				&:hover {
-					color: $main-color;
-				}
-			}
-		}
-		&__btn {
-			font-size: 12px;
-		}
-	}
+	&__descr {
+		position: absolute;
+		top: 182px;
+		right: 112px;
+		padding: 124px 0px 0px 40px;
+		max-width: 425px;
+		height: 450px;
+		background: #B08EAD;
 
-	.content {
-		margin-top: 10px;
-		&__text {
-			text-align: center;
-			&-title {
-				font-size: 24px;
-				font-weight: 300;
-				color: #ffffff;
-			}
-			&-subtitle {
-				margin-top: 25px;
-				font-size: 72px;
-				font-weight: 700;
-				text-transform: uppercase;
-				color: #ec644b;
-			}
-			&-descr {
-				margin-top: 10px;
-				font-size: 42px;
-				text-transform: uppercase;
-				color: #ffffff;
-			}
-		}
-		&__items {
-			margin-top: 27px;
-			padding: 0 10px;
-			display: grid;
-			grid-template-columns: repeat(4, 260px);
-			grid-template-rows: repeat(1, minmax(60px, auto));
-			grid-auto-rows: repeat(1, minmax(60px, auto));;
-			justify-content: space-between;
-			&-item {
-				text-align: center;
-			}
-			&-img {
-				min-height: 65px;
-				display: grid;
-				justify-content: center;
-				align-items: center;
-			}
-			&-descr {
-				margin-top: 10px;
-				font-size: 16px;
-				line-height: 22px;
-				font-weight: 300;
-				color: #ffffff;
-			}
-		}
+		color: #fff;
 	}
-	&__btn {
-		margin-top: 40px;
-		position: relative;
-		top: 0;
-		left: 50%;
-		transform: translateX(-50%);
+	&__descr_new {
+		font-family: 'Roboto', sans-serif;
+		margin-bottom: 30px;
+		font-size: 14px;
+		line-height: 30px;
+		letter-spacing: 1.5px;
+		text-transform: uppercase;
 	}
+	&__descr_title {
+		margin-bottom: 30px;
+		font-size: 45px;
+		line-height: 55px;
+	}
+	&__descr_buy {
+		font-family: 'Roboto', sans-serif;
+		font-size: 14px;
+		line-height: 30px;
+		letter-spacing: 1.5px;
+		text-transform: uppercase;
 
-	.divider {
-		position: relative;
-		background-color: #fff;
-		width: 10px;
-		height: 10px;
-		border-radius: 100%;
-		margin: 38px auto 0;
-		&:before,
-		&:after {
-			content: '';
-			position: absolute;
-			top: 5px;
-			right: 20px;
-			background-color: #fff;
-			width: 390px;
-			height: 1px;
+		a {
+			color: #fff;
+			border-bottom: 2px solid #fff;
+			padding-bottom: 12px;
+
+			background-image: linear-gradient(currentColor, currentColor);
+			background-position: 0% 100%;
+			background-repeat: no-repeat;
+			background-size: 0% 2px;
+			padding-bottom: 12px;
+			transition: all .3s ease-in-out;
 		}
-		&:after {
-			left: 20px;
+		a:hover {
+			color: #994d94;
+			background-size: 100% 2px;
+			border-bottom: none;
 		}
+	}
+	&__squares_one {
+		position: absolute;
+		bottom: 0;
+		right: 162px;
+		width: 50px;
+		height: 50px;
+		background: #A78BA4;
+	}
+	&__squares_two {
+		position: absolute;
+		bottom: 0;
+		right: 112px;
+		width: 50px;
+		height: 50px;
+		background: #B08EAD;
 	}
 }
