@@ -1,0 +1,72 @@
+.designer {
+	padding: 60px 0 75px;
+	&__text {
+
+	}
+	&__title {
+		font-family: 'Roboto', sans-serif;
+		font-size: 14px;
+		line-height: 30px;
+		text-align: center;
+		letter-spacing: 1.5px;
+		text-transform: uppercase;
+		color: #B99BB6;
+	}
+	&__descr {
+		margin: 0 auto;
+		margin-top: 13px;
+		max-width: 747px;
+		font-size: 26px;
+		line-height: 38px;
+		text-align: center;
+		color: #5F4D5D;
+	}
+	&__btn {
+		margin: 0 auto;
+		margin-top: 17px;
+		margin-bottom: 50px;
+	}
+
+	.carts {
+		display: flex;
+		gap: 37px;
+		justify-content: center;
+		&__item {
+			max-width: 368px;
+			height: 427px;
+			img {
+				width: 100%;
+			}
+			background: #CEB3CB;
+		}
+		&__text {
+			padding-left: 23px;
+			padding-top: 23px;
+		}
+		&__title {
+			font-size: 25px;
+			line-height: 30px;
+			color: #FFFFFF;
+		}
+		&__link {
+			font-size: 17px;
+			line-height: 30px;
+			margin-top: 7px;
+			a {
+				color: #fff;
+
+				background-image: linear-gradient(currentColor, currentColor);
+				background-position: 0% 100%;
+				background-repeat: no-repeat;
+				background-size: 0% 2px;
+				padding-bottom: 12px;
+				transition: all .3s ease-in-out;
+			}
+			a:hover {
+				color: #994d94;
+				background-size: 100% 2px;
+				border-bottom: none;
+			}
+		}
+	}
+}

@@ -1,12 +1,19 @@
 .btn {
-	padding: 18px 23px;
-	background: $main-color;
-	border-radius: 50px;
-	color: #fff;
+	display: block;
+	padding: 15px 29px;
+	border: 1px solid #B99BB6;
+	background: #fff;
+	border-radius: 25px;
+	color: #B99BB6;
 	text-transform: uppercase;
-	border: 0;
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	text-align: center;
+	letter-spacing: 1.5px;
 	&:hover {
-		text-shadow: 5px 5px 5px #000;
+		text-shadow: 5px 5px 5px #96478e;
 	}
 	&_p23 {
 		padding: 23px 45px;
