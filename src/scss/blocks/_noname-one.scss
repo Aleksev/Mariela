@@ -1,0 +1,55 @@
+.noname-one {
+	padding: 75px 0;
+	.divider {
+		margin: 40px 0;
+		max-width: 100%;
+		height: 1px;
+		background: #D7B7D4;
+	}
+	.cards {
+		&__item {
+			display: flex;
+			padding-left: 60px;
+			justify-content: space-between;
+			align-items: center;
+		}
+		&__text {
+			max-width: 486px;
+			height: auto;
+			padding: 0 10px;
+		}
+		&__title {
+			margin-bottom: 10px;
+			font-family: 'Roboto';
+			font-size: 14px;
+			line-height: 30px;
+			letter-spacing: 1.5px;
+			text-transform: uppercase;
+			color: #B99BB6;
+		}
+		&__descr {
+			font-size: 24px;
+			line-height: 30px;
+			color: #5F4D5D;
+		}
+		&__btn {
+			margin-top: 20px;
+		}
+		&__img {
+			max-width: 608px;
+			height: 417px;
+			img {
+				width: 100%;
+			}
+		}
+		&__img_scale {
+			max-width: 544px;
+			height: 506px;
+		}
+		&__item_reverse {
+			display: flex;
+			flex-direction: row-reverse;
+			// justify-content: 0;
+		}
+	}
+}
