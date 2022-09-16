@@ -54,12 +54,14 @@
 			margin-top: 7px;
 			a {
 				color: #fff;
-
+				border-bottom: 2px solid #fff;
+				padding-bottom: 12px;
+	
 				background-image: linear-gradient(currentColor, currentColor);
 				background-position: 0% 100%;
 				background-repeat: no-repeat;
 				background-size: 0% 2px;
-				padding-bottom: 12px;
+				padding-bottom: 5px;
 				transition: all .3s ease-in-out;
 			}
 			a:hover {
