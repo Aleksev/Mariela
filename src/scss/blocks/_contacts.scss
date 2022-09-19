@@ -2,6 +2,84 @@
 	margin: 0 auto;
 	max-width: 1440px;
 	min-height: 568px;
-	padding: 67px 0 83px;
+	padding-bottom: 83px;
 	background: #CEB3CB;
+	&__row {
+		display: flex;
+		column-gap: 145px;
+		padding-top: 97px;
+		padding-left: 227px;
+		padding-right: 20px;
+	}
+	&__text {
+		max-width: 220px;
+		color: #fff;
+		display: flex;
+		flex-direction: column;
+		row-gap: 20px;
+	}
+	&__title {
+		font-family: 'Roboto';
+		font-size: 14px;
+		line-height: 30px;
+		letter-spacing: 1.5px;
+		text-transform: uppercase;
+	}
+	&__descr {
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	&__form {
+		color: #fff;
+	}
+	&__form_title {
+		font-family: 'Roboto';
+		font-size: 14px;
+		line-height: 30px;
+		letter-spacing: 1.5px;
+		text-transform: uppercase;
+	}
+	&__form_descr {
+		font-size: 22px;
+		line-height: 30px;
+	}
+	.form {
+		background: #CEB3CB;
+		margin-top: 20px;
+		max-width: 600px;
+		display: flex;
+		flex-direction: column;
+		row-gap: 24px;
+		column-gap: 30px;
+		input, textarea {
+			padding: 10px 15px;
+			background: #CEB3CB;
+			border: 1px solid #fff;
+		}
+		&__item {
+			display: flex;
+			gap: 30px 24px;
+			flex-wrap: wrap;
+			input {
+				width: 288px;
+				height: 50px;
+			}
+		}
+		&__area {
+			height: 100px;
+			resize: none;
+		}
+		&__btn {
+			width: 210px;
+			height: 50px;
+			color: #fff;
+			background: #CEB3CB;
+			border: 1px solid #fff;
+			&:hover {
+				background: #caa3c6;
+				transition: all 0.3s ease-in-out;
+			}
+		}
+	}
 }

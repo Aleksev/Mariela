@@ -14,5 +14,6 @@
 	letter-spacing: 1.5px;
 	&:hover {
 		text-shadow: 5px 5px 5px #96478e;
+		transition: all 0.3s ease-in-out;
 	}
 }

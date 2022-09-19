@@ -1,14 +1,14 @@
-// Global SCSS-files imports
+//! Global SCSS-files imports
 @import "./vars";
 @import './bootstrap-reboot.min';
 @import "./reset";
 @import "./global";
 
-// Libs
+//! Libs
 @import './libs/fonts';
 // @import './libs/swiper';
 
-// blocks
+//! Blocks
 @import "./blocks/button";
 
 @import "./blocks/header";
@@ -23,5 +23,8 @@
 // @import './blocks/title';
 // @import './blocks/footer';
 
-// base
+//! Media
+@import "./media/header-m";
+
+//! Base
 // @import './base/mixins';
