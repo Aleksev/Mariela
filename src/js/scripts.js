@@ -39,3 +39,18 @@ function fixedNav() {
 	}
 }
 window.addEventListener("scroll", fixedNav)
+
+// Стрелка вверх
+const upArrow = document.querySelector('.show-arrow')
+
+window.onscroll = () => {
+	if (window.scrollY > 80) {
+		upArrow.classList.remove('show-arrow__hide')
+	} else if (window.scrollY < 80) {
+		upArrow.classList.add('show-arrow__hide')
+	}
+}
+
+upArrow.onclick = () => {
+	window.scrollTo(0, 0)
+}
