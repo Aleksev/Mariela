@@ -15,14 +15,13 @@ body {
 	:active, :hover, :focus {
 		outline: 0;
 		outline-offset: 0;
-		color: #fff;
 	}
 
 	// Цвет placeholder
 	::-webkit-input-placeholder {color:#fff;}
 	::-moz-placeholder          {color:#fff;}
 	:-moz-placeholder           {color:#fff;}
-	::-ms-input-placeholder      {color:#fff;}
+	::-ms-input-placeholder     {color:#fff;}
 	:-ms-input-placeholder      {color:#fff;}
 
 	// overflow-x: hidden;

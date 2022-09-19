@@ -7,11 +7,11 @@
 	&__row {
 		display: flex;
 		column-gap: 145px;
-		padding-top: 97px;
 		padding-left: 227px;
 		padding-right: 20px;
 	}
 	&__text {
+		padding-top: 97px;
 		max-width: 220px;
 		color: #fff;
 		display: flex;
@@ -31,6 +31,7 @@
 	}
 
 	&__form {
+		padding-top: 67px;
 		color: #fff;
 	}
 	&__form_title {
@@ -45,6 +46,10 @@
 		line-height: 30px;
 	}
 	.form {
+		:active, :hover, :focus {
+			color: #fff;
+		}
+
 		background: #CEB3CB;
 		margin-top: 20px;
 		max-width: 600px;
@@ -56,6 +61,8 @@
 			padding: 10px 15px;
 			background: #CEB3CB;
 			border: 1px solid #fff;
+			font-size: 18px;
+			line-height: 30px;
 		}
 		&__item {
 			display: flex;
@@ -76,6 +83,8 @@
 			color: #fff;
 			background: #CEB3CB;
 			border: 1px solid #fff;
+			font-size: 18px;
+			line-height: 30px;
 			&:hover {
 				background: #caa3c6;
 				transition: all 0.3s ease-in-out;

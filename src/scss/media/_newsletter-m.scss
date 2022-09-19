@@ -1,0 +1,8 @@
+@media (max-width: 480px) {
+	.newsletter {
+		&__form {
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+}

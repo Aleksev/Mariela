@@ -1,0 +1,52 @@
+.newsletter {
+	min-height: 330px;
+	padding: 95px 0 107px;
+	&__title {
+		font-family: 'Roboto';
+		font-size: 14px;
+		line-height: 30px;
+		text-align: center;
+		letter-spacing: 1.5px;
+		text-transform: uppercase;
+		color: #B99BB6;
+	}
+	&__descr {
+		font-size: 24px;
+		line-height: 30px;
+		text-align: center;
+		color: #5F4D5D;
+	}
+	&__form {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin-top: 13px;
+		input {
+			font-size: 18px;
+			line-height: 30px;
+			color: #b375ab;
+			width: 208px;
+			height: 60px;
+			padding: 15px;
+			border: 1px solid #CEB3CB;
+		}
+		&_btn {
+			font-size: 18px;
+			line-height: 30px;
+			background: #CEB3CB;
+			color: #fff;
+			width: 180px;
+			height: 60px;
+		}
+		&_btn:hover {
+			background: #b375ab;
+			transition: all 0.3s ease-in-out;
+		}
+
+		::-webkit-input-placeholder {color:#CEB3CB;}
+		::-moz-placeholder          {color:#CEB3CB;}
+		:-moz-placeholder           {color:#CEB3CB;}
+		::-ms-input-placeholder      {color:#CEB3CB;}
+		:-ms-input-placeholder      {color:#CEB3CB;}
+	}
+}
