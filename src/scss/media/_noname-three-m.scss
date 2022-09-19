@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+	.noname-three {
+		&__items {
+			flex-direction: column;
+			row-gap: 20px;
+		}
+	}
+}
