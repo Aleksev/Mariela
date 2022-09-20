@@ -1,8 +1,9 @@
 // Container
 .container {
 	max-width: ($containerWidth) + px;
-	width: 90%;
 	margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 html {

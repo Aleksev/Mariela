@@ -9,12 +9,11 @@ nav {
 .navbar {
 	display: flex;
 	width: 100%;
-	justify-content: space-between;
-	// padding-top: 15px;
-	// padding-bottom: 15px;
+	// justify-content: space-between;
 }
 
 .logo {
+  margin-right: auto;
 	padding-left: 25px;
 }
 
