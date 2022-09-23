@@ -30,12 +30,15 @@
 		justify-content: center;
 		&__item {
 			max-width: 368px;
+      max-height: 427px;
 			img {
 				max-width: 100%;
+        max-height: 100%;
 			}
 			background: #CEB3CB;
 		}
 		&__text {
+      max-height: 400px;
       padding: 23px 20px 23px 20px;
 		}
 		&__title {

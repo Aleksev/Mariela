@@ -1,31 +1,11 @@
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
 	.designer {
     padding: 30px 0 30px;
     .carts {
       gap: 15px;
-      &__item {
-        height: 400px;
-      }
-      &__text {
-        padding: 15px;
-      }
-      &__title {
-        text-align: center;
-        font-size: 20px;
-      }
-      &__link {
-        text-align: center;
-      }
-    }
-  }
-}
-
-@media (max-width: 479px) {
-	.designer {
-    .carts {
       flex-wrap: wrap;
       &__item {
-        height: 300px;
+        
       }
       &__text {
         padding: 15px;
