@@ -4,8 +4,7 @@
   &__carts {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-    row-gap: 48px;
-    column-gap: 26px;
+    gap: 48px 26px;
     justify-items: center;
   }
   &__item {

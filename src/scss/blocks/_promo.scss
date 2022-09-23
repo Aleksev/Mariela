@@ -7,8 +7,12 @@
 	padding: 72px 20px 70px 178px;
 	&__bg {
 		max-width: 850px;
-		height: 675px;
-		background: url('../../img/promo-bg.jpg') center / cover no-repeat;
+		min-height: 675px;
+		// background: url('../../img/promo-bg.jpg') center / cover no-repeat;
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
 	}
 	&__descr {
 		position: absolute;
@@ -18,7 +22,6 @@
 		max-width: 425px;
 		height: 450px;
 		background: #B08EAD;
-
 		color: #fff;
 	}
 	&__descr_new {

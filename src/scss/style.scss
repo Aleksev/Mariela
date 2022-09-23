@@ -1,8 +1,9 @@
 //! Global SCSS-files imports
-@import "./vars";
-@import './bootstrap-reboot.min';
-@import "./reset";
-@import "./global";
+@import "./base/vars";
+@import './libs/bootstrap-reboot.min';
+@import "./base/reset";
+@import "./base/global";
+@import './base/mixins';
 
 //! Libs
 @import './libs/fonts';
@@ -30,6 +31,5 @@
 @import "./media/newsletter-m";
 @import "./media/noname-three-m";
 @import "./media/footer-m";
-
-//! Base
-// @import './base/mixins';
+@import "./media/promo-m";
+@import "./media/designer-m";

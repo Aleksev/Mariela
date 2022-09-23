@@ -1,8 +1,5 @@
 .designer {
 	padding: 60px 0 75px;
-	&__text {
-
-	}
 	&__title {
 		font-family: 'Roboto', sans-serif;
 		font-size: 14px;
@@ -33,15 +30,13 @@
 		justify-content: center;
 		&__item {
 			max-width: 368px;
-			height: 427px;
 			img {
-				width: 100%;
+				max-width: 100%;
 			}
 			background: #CEB3CB;
 		}
 		&__text {
-			padding-left: 23px;
-			padding-top: 23px;
+      padding: 23px 20px 23px 20px;
 		}
 		&__title {
 			font-size: 25px;
